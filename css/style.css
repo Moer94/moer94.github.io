@@ -32,6 +32,7 @@
 	General Styles
 =======================================================*/
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700,300,100|Lora:400,400italic,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Playfair+Display|Raleway|Roboto');
 body, html{
 	height:100%;
 	width:100%;
@@ -39,7 +40,7 @@ body, html{
 body{
 	position:relative;
 	overflow:hidden;
-	font-family: Lora, serif;
+	font-family: 'Roboto', sans-serif;
 	background:#F0F0F0 !important;
 }
 *{
@@ -55,7 +56,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Roboto Mono', sans-serif;
 }
 .color{
-	color:#303F9F;
+	color:#00b899;
 }
 ::-webkit-scrollbar{
 	background:#F0F0F0;
@@ -78,7 +79,7 @@ img{
 	Menu
 =======================================================*/
 body.border-dark .menu-btn > .lines > span{
-	background:#303F9F;
+	background:#89a6fb;
 }
 .menu-btn > .lines > .l2{
 	margin:6px 0;
@@ -150,7 +151,7 @@ body.border-dark .menu-btn > .lines > span{
 	transition:border-color 2.5s cubic-bezier(.785,.135,.15,.86);
 }
 body.border-dark .main-content > .page-border{
-	border-color:#303F9F;
+	border-color:#a2ff61;
 }
 .main-content > .border-top,
 .main-content > .border-bottom{
@@ -249,7 +250,7 @@ body.border-dark .main-content:after{
 	left:0;
 	height:100%;
 	width:100%;
-	background:#303F9F;
+	background: rgb(22, 224, 189);
 	opacity:.8;
 	z-index:-1;
 }
@@ -318,7 +319,7 @@ a.btn-custom{
 	z-index:-1;
 	opacity:0;
 	visibility:hidden;
-	background:rgba(0,0,0,.3);
+	background:rgba(66, 65, 65, 0.3);
 	-webkit-transition:all .3s cubic-bezier(.785,.135,.15,.86);
 	-moz-transition:all .3s cubic-bezier(.785,.135,.15,.86);
 	transition:all .3s cubic-bezier(.785,.135,.15,.86);
@@ -339,7 +340,7 @@ a.btn-custom{
 	visibility:visible;
 }
 .btn-custom.btn-color:after{
-	background:#303F9F;
+	background:#89a6fb;
 }
 .btn-custom.btn-color:hover:after{
 	opacity:.4;
@@ -932,7 +933,10 @@ body.section-switching.up .animation-block{
 }
 .portfolio-filters > li > a.active,
 .portfolio-filters > li > a:hover{
-	color:#202020;
+	color:#0a917a;
+}
+a:hover{
+	color:#0a917a;
 }
 .portfolio-items{
 	margin:-5px;
@@ -1315,6 +1319,9 @@ body.loaded #preloader .loader{
 	-webkit-animation: loader 1.5s infinite linear;
 	-moz-animation: loader 1.5s infinite linear;
 	animation: loader 1.5s infinite linear;
+}
+a{
+	color: #16e0bd;
 }
 @-webkit-keyframes loader{
 	0%{
