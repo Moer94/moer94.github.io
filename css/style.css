@@ -1323,6 +1323,9 @@ body.loaded #preloader .loader{
 a{
 	color: #16e0bd;
 }
+.contactMe > div{
+	margin: 10px 10px;
+}
 @-webkit-keyframes loader{
 	0%{
 		transform:rotate(0deg);
